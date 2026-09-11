@@ -22,7 +22,13 @@ Options:
     -h, --help             Show this help message
 
 Assumptions:
-    Chromecast has been factory reset.
+    1. Chromecast has been factory reset.
+    2. You have connected the device executing this script to the Chromecast's
+        setup Wi-Fi.
+    3. The device executing this script has:
+        - curl
+        - jq
+        - openssl
 
 The Wi-Fi password will be requested interactively and will not be echoed.
 EOF
